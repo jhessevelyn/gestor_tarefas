@@ -1,0 +1,81 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ======================================
+# Virtualenv
+# ======================================
+venv/
+env/
+.venv/
+.virtualenv/
+
+# ======================================
+# Django
+# ======================================
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Arquivos de configurações sensíveis
+.env
+*.env
+.env.*
+
+# Cache do Django
+*/__pycache__/
+*/migrations/__pycache__/
+*.pid
+
+# Evitar migrations iniciais geradas automaticamente
+# (Opcional — mantenha se quiser versionar migrations manualmente)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ======================================
+# OS files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# IDEs
+# ======================================
+
+# VSCode
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+# ======================================
+# Byte-compiled / Serialized
+# ======================================
+*.pickle
+*.pkl
+
+# ======================================
+# Testing
+# ======================================
+.coverage
+.coverage.*
+htmlcov/
+pytest_cache/
+.tox/
+.nox/
